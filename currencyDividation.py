@@ -1,0 +1,9 @@
+rs = int(input("ENter amount :"))
+ten = rs//10
+rs %= 10
+five = rs//5
+rs %=5
+one = rs//1
+print("ten rs notes = ",ten)
+print("five rs notes = ",five)
+print("one rs notes = ",one)
